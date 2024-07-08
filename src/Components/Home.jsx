@@ -1,18 +1,20 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Header from "./Header";
+import Hero from "./Hero";
 import Section from "./Section";
 import Products from "./Products";
 import Bmi from "./Bmi";
 import Reviews from "./Reviews";
 import Blogs from "./Blogs";
 import Footer from "./Footer";
+import Card from "./Card";
 
 const Home = () => {
   return (
-    <div className="bg-zinc-700">
+    <div className="bg-[#373737]">
       <Navbar />
-      <Header />
+      <Hero />
+      <Card />
       <Section />
       <Products />
       <Bmi />
